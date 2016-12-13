@@ -1,0 +1,102 @@
+@font-face {
+    font-family: bastille;
+    src: url('bastille-font.ttf');
+}
+
+html {
+    background: url("ledge.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+body {    padding:0;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+svg {
+    padding-top: 100px;
+}
+
+
+@media screen and (max-width: 1366px) {
+    /*chromebook*/
+    svg {
+        padding-top: 1%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    /*chromebook*/
+    svg {
+        padding-top: 1%;
+    }
+}
+
+
+#merryChristmas {
+    font-family: 'bastille', sans-serif;
+    color: white;
+    margin-top: 2%;
+    font-size: 5.313em;
+    letter-spacing: 2.5px;
+}
+
+@media screen and (min-width: 560px) {
+    /*iphone5 rotated*/
+    #merryChristmas{
+            font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    /*iphone5*/
+    #merryChristmas{
+            font-size: 4em;
+    }
+}
+
+
+p {
+    /*Wild World Communications Text*/
+    margin-top: -.30%;
+    font-family: 'bastille', sans-serif;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+}
+
+#wwcs {
+    font-size: 30px;
+}
+
+
+#pitOfPassion {
+    margin-top: -20px;
+}
+
+#footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    font-family: 'bastille', sans-serif;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+a {
+    color: white
+}
+
+a:visited {
+    color: white;
+}
+
+
+#outline {
+    height:100%;
+    background-color:rgba(0, 0, 4, .3);
+}
