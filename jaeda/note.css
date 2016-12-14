@@ -1,0 +1,58 @@
+@font-face {
+    font-family: strangerFont;
+    src: url('Beguiatt.ttf');
+}
+
+html {
+    background: url("bg.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+#top {
+    font-size: 2.5em;
+    margin-top: 10%;
+}
+
+body {
+    background-size: 100%;
+    background-repeat: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'strangerFont', sans-serif;
+    margin-left: 13%;
+    margin-right: 13%;
+    color: #050912;
+    -webkit-text-stroke: 1px #C2000B;
+}
+
+a {
+    text-decoration: none;
+    color: #050912;
+    -webkit-text-stroke: 1px #C2000B;
+}
+
+a:visited {
+    color: #050912;
+    -webkit-text-stroke: 1px #C2000B;
+}
+
+#footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    font-family: 'strangerFont', sans-serif;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+#footer {
+    font-family: 'strangerFont';
+}
