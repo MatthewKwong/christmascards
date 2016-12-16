@@ -26,13 +26,6 @@ svg {
     }
 }
 
-@media screen and (max-width: 1366px) {
-    /*chromebook*/
-    svg {
-        padding-top: 1%;
-    }
-}
-
 
 #merryChristmas {
     font-family: 'bastille', sans-serif;
