@@ -1,9 +1,10 @@
 body{
-    text-align:center;
     overflow: hidden;
     background-color:#bce9f4;
+    padding:0;
+    margin: 0;
+    text-align: center;
 }
-
 
 .cloud{
     animation: bobble 2s infinite;

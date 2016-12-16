@@ -8,7 +8,8 @@ html {
     background-size: cover;
 }
 
-body {    padding:0;
+body {
+    padding: 0;
     margin: 0;
     overflow-x: hidden;
     text-align: center;
@@ -18,14 +19,12 @@ svg {
     padding-top: 100px;
 }
 
-
 @media screen and (max-width: 1366px) {
     /*chromebook*/
     svg {
         padding-top: 1%;
     }
 }
-
 
 #merryChristmas {
     font-family: 'bastille', sans-serif;
@@ -37,18 +36,17 @@ svg {
 
 @media screen and (min-width: 560px) {
     /*iphone5 rotated*/
-    #merryChristmas{
-            font-size: 2em;
+    #merryChristmas {
+        font-size: 2em;
     }
 }
 
 @media screen and (min-width: 320px) {
     /*iphone5*/
-    #merryChristmas{
-            font-size: 4em;
+    #merryChristmas {
+        font-size: 4em;
     }
 }
-
 
 p {
     /*Wild World Communications Text*/
@@ -62,7 +60,6 @@ p {
 #wwcs {
     font-size: 30px;
 }
-
 
 #pitOfPassion {
     margin-top: -20px;
@@ -88,8 +85,7 @@ a:visited {
     color: white;
 }
 
-
 #outline {
-    height:100%;
-    background-color:rgba(0, 0, 4, .3);
+    height: 100%;
+    background-color: rgba(0, 0, 4, .3);
 }
