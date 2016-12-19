@@ -2,7 +2,6 @@ body {
     font-family: got;
     background-color:#cee6ed;
     text-align: center;
-    font-family: 'got';
 }
 
 @font-face {
@@ -10,6 +9,9 @@ body {
     src: url('got.ttf');
 }
 
+svg{
+    margin-top: -2%;
+}
 
 .sun{
     animation: sun 2s infinite;

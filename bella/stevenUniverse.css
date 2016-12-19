@@ -1,0 +1,42 @@
+body{
+    background-color:#b2eaea;
+    text-align:center;
+}
+
+.tan{
+    animation: tan 2s infinite;
+    margin-left:100px;
+}
+
+@keyframes tan {
+    0% {
+        transform:translate3d(0px, 10px, 0px);
+        animation-timing-function: ease-in;
+    }
+    50% {
+        transform: translate3d(0px, 20px, 0px);
+        animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translate3d(0px, 10px, 0px);
+    }
+}
+
+.brown{
+    animation: brown 2s infinite;
+    margin-left:100px;
+}
+
+@keyframes brown {
+    0% {
+        transform:translate3d(0px, 10px, 0px);
+        animation-timing-function: ease-in;
+    }
+    50% {
+        transform: translate3d(0px, 20px, 0px);
+        animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translate3d(0px, 10px, 0px);
+    }
+}
