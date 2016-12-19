@@ -1,16 +1,34 @@
-body{
-    background-color:#b2eaea;
-    text-align:center;
+body {
+    text-align: center;
+    animation: bg .7s infinite;
 }
 
-.tan{
+svg{
+    margin-top:5%;
+}
+
+@keyframes bg {
+    0% {
+        background-color: #b2eaea;
+    }
+    50% {
+        background-color: #d8d0f2;
+    }
+    
+    100% {
+        background-color: #b2eaea;
+    }
+    
+}
+
+.tan {
     animation: tan 2s infinite;
-    margin-left:100px;
+    margin-left: 100px;
 }
 
 @keyframes tan {
     0% {
-        transform:translate3d(0px, 10px, 0px);
+        transform: translate3d(0px, 10px, 0px);
         animation-timing-function: ease-in;
     }
     50% {
@@ -22,14 +40,14 @@ body{
     }
 }
 
-.brown{
+.brown {
     animation: brown 2s infinite;
-    margin-left:100px;
+    margin-left: 100px;
 }
 
 @keyframes brown {
     0% {
-        transform:translate3d(0px, 10px, 0px);
+        transform: translate3d(0px, 10px, 0px);
         animation-timing-function: ease-in;
     }
     50% {
